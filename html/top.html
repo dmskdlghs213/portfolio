@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Portfolio</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/top.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#title1">Web </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#title2">LP</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            SNS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.facebook.com/yomiuri1934">Facebook</a>
+                            <a class="dropdown-item" href="https://github.com/dmskdlghs213?tab=repositories">Github</a>
+                            <a class="dropdown-item" href="https://www.wantedly.com/users/80117141">wantedly</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <img src="../img/6kYjdNuxSlanevDvVpXgcA_thumb_5f.jpg" alt="" class="image">
+            <h1 class="textfade">Portfolio</h1>
+        </div>
+
+        <div class="col-md-9">
+            <h3 id="title1">WEB</h3>
+            <p></p>
+            <div class="row justify-content-center">
+                <div class="col-md-3 todo">
+                    <a class="link" type="hidden" href="http://planyou.herokuapp.com/register"></a>
+                    <h3>Todo</h3>
+                    <br><br>
+                    <h4>web page link</h4>
+                </div>
+                <div class="col-md-3 ec">
+                    <a class="link" type="hidden" href="https://ecapps.herokuapp.com/"></a>
+                    <h3>EC</h3>
+                    <br><br>
+                    <h4>web page link</h4>
+                </div>
+                <div class="col-md-3 ready">
+                    <h3>Comming soon</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <h3 id="title2">LP</h3>
+            <p></p>
+            <div class="row justify-content-center">
+                <div class="col-md-4 profile">
+                    <a class="link" type="hidden" href="profile.html"></a>
+                    <h3>Profile</h3>
+                    <br><br>
+                    <h4>profile page link</h4>
+                </div>
+                <div class="col-md-4 service">
+                    <a class="link" type="hidden" href="index.html"></a>
+                    <h3>RE<span>::</span>PRE</h3>
+                    <br><br>
+                    <h4>pre service page link</h4>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <p>&copy 2019, Portfolio</p>
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+<script>
+    // $(function () {
+    //     $('#title2').css('visibility', 'hidden');
+
+    //     if (window.matchMedia("(max-width: 768px)").matches) {
+    //         /* ウィンドウサイズが 768px以下の場合のコードをここに */
+    //         $(window).scroll(function () {
+    //             $('.title2').each(function () {
+    //                 var targetPosition = jQuery(this).offset().top;
+    //                 if (targetPosition) {
+    //                     jQuery(this).addClass("fadeInDown");
+    //                 }
+    //             });
+    //         });
+    //     } else {
+    //         /* ウィンドウサイズが 768px以上の場合のコードをここに */
+    //         $(window).scroll(function () {
+    //             var windowHeight = jQuery(window).height(),
+    //                 topWindow = jQuery(window).scrollTop();
+    //             $('.title2').each(function () {
+    //                 var targetPosition = jQuery(this).offset().top;
+    //                 if (topWindow > targetPosition - windowHeight) {
+    //                     jQuery(this).addClass("fadeInDown");
+    //                 }
+    //             });
+    //         });
+    //     }
+    // });
+
+</script>
+
+</html>
